@@ -23,7 +23,7 @@ public class Main {
         PersegiPanjang opersegi;
         SegitigaSiku osegitiga;
         Lingkaran olingkaran;
-        int s1, s2, r;
+       double s1, s2, r;
  
         opersegi = new PersegiPanjang();
         osegitiga = new SegitigaSiku();
@@ -37,25 +37,25 @@ public class Main {
         switch(pilihan){
             case '1':{
                 System.out.print("Masukan panjang persegi: ");
-                s1 = scanner.nextInt();
+                s1 = scanner.nextDouble();
                 System.out.print("Masukan lebar persegi: ");
-                s2 = scanner.nextInt();
+                s2 = scanner.nextDouble();
                 System.out.println("Luas persegi panjang: " + opersegi.luas(s1,s2));
                 System.out.println("Keliling persegi panjang: " + opersegi.keliling(s1,s2));
                 break;
             }
             case '2':{
                 System.out.print("Masukan alas segitiga siku: ");
-                s1 = scanner.nextInt();
+                s1 = scanner.nextDouble();
                 System.out.print("Masukan tinggi segitiga siku: ");
-                s2 = scanner.nextInt();
+                s2 = scanner.nextDouble();
                 System.out.println("Luas segitiga: " + osegitiga.luas(s1,s2));
                 System.out.println("Keliling segitiga: " + osegitiga.keliling(s1,s2));
                 break;
             }
             case '3':{
                 System.out.print("Masukan jari-jari lingkaran: ");
-                r = scanner.nextInt();
+                r = scanner.nextDouble();
                 System.out.println("Luas lingkaran: " + olingkaran.luas(r));
                 System.out.println("Keliling lingkaran: " + olingkaran.keliling(r));
                 break;
