@@ -2,7 +2,7 @@ package bangundatar;
 
 // Created on Feb 16, 2019 4:54:11 AM
 
-public class PersegiPanjang implements BangunDatar{
+public class SegiEmpat implements BangunDatar{
   
   PersegiPanjang(){}
   
