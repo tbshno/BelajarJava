@@ -8,12 +8,12 @@ public class PersegiPanjang implements BangunDatar{
   
   
   @Override
-  public double luas(int s1, int s2) {
+  public double luas(double s1, double s2) {
     return (s1 * s2);
   }
   
   @Override
-  public double keliling(int s1, int s2) {
-    return (2 * (s1 + s2));
+  public double keliling(double s1, double s2) {
+    return (2.0 * (s1 + s2));
   }
 }
