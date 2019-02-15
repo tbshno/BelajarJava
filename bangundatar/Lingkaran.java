@@ -4,7 +4,7 @@ package bangundatar;
 
 public class Lingkaran implements BangunDatar {
   
-  private double pi = 3.1415;
+  private double pi = Math.PI;
   
   Lingkaran(){}
   
